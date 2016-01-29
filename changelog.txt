@@ -2,5 +2,6 @@ Changes to the project:
 Newest / Latest changes at the top
 [YYYY.MM.DD HH:MM Comment]
 
-
+2016.01.28 17.43 Standard routing for last in routes.php is added
+2016.01.28 17:38 Last folder and Welcome.php is created and the link is fixed
 2016.01.28 13:55 Initial Setup
