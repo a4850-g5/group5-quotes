@@ -48,6 +48,16 @@ $route['404_override'] = '';
 $route['last'] = 'last/welcome';
 /* Feature 4 Routing */
 $route['lock/(:any)/(:any)'] = 'welcome/shucks';
+/* Feature 6 Routing */
+$route['dunno'] = function() 
+    {
+        $source = './data/codeigniter.gif'; // an image of codeigniter logo
+        // set the mime type for that image
+        header("Content-type: image/jpeg"); 
+        header('Content-Disposition: inline');
+        readfile($source); // dish it
+        die(); // and we don't have to go any further
+    };
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */
