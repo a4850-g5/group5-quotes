@@ -58,6 +58,8 @@ $route['dunno'] = function()
         readfile($source); // dish it
         die(); // and we don't have to go any further
     };
+/* Feature 8 Routing */
+$route['comp(\d+)/wisdom'] = 'wise/bingo';
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */
