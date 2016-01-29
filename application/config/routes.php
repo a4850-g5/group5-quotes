@@ -41,6 +41,10 @@
 $route['default_controller'] = "welcome";
 $route['404_override'] = '';
 
+/* Feature 2 Routing */
+$route['last'] = 'last/welcome';
+/* Feature 4 Routing */
+$route['lock/(:any)/(:any)'] = 'welcome/shucks';
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */
