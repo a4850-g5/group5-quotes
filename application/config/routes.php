@@ -50,9 +50,9 @@ $route['show/(:num)'] = "first/gimme/3";
 /* Feature 6 Routing */
 $route['dunno'] = function() 
 	{
-		$source = './data/codeigniter.gif'; // an image of codeigniter logo
+		$source = './data/GitHub-Down-for-Maintenance.png'; // an image of codeigniter logo
 		// set the mime type for that image
-		header("Content-type: image/jpeg"); 
+		header("Content-type: image/png"); 
 		header('Content-Disposition: inline');
 		readfile($source); // dish it
 		die(); // and we don't have to go any further
